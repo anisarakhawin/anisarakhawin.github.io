@@ -11,6 +11,7 @@
 body {
     background-color: #9E8E7E;
     font-family: 'Muli', sans-serif;
+    /*color: #041E44;*/
 }
 
 .section-header {
@@ -55,7 +56,7 @@ header p {
 }
 
 .section-invitation {
-  margin-top: 15px;
+    margin-top: 15px;
 }
 
 .section-invitation .section-invitation-title h6 {
@@ -1331,6 +1332,34 @@ header p {
         width: 120px;
         margin-left: 185px;
     }
+
+    .section-header .section-header-title h6 {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .section-header .section-header-title h4 {
+        font-size: 30px;
+        line-height: 18px;
+    }
+
+    .section-header .section-header-title .and-symbol {
+        font-size: 30px;
+        line-height: 18px;
+    }
+
+    .section-header .section-header-title h5 {
+        font-size: 20px;
+        line-height: 18px;
+    }
+
+    .section-gift-thanks .section-gift-thanks-message h5 {
+        font-size: 14px;
+    }
+
+    .section-gift-thanks .section-gift-thanks-message h3 {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 505px) {
@@ -1496,9 +1525,55 @@ header p {
         height: 20px;
         margin: -10px -5px -7px -10px;
     }
+
+    .section-couple-info-detail {
+        margin-top: 50px;
+    }
+
+    .section-couple-info-detail img {
+        height: 130px;
+    }
+
+    .section-couple-info-detail .icon-married {
+        height: 80px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    .couple-both-detail {
+        margin-top: 22px;
+        color: white;
+    }
+
+    .couple-both-detail h3 {
+        font-size: 22px;
+    }
+
+    .couple-both-detail h6 {
+        font-size: 16px;
+        margin-bottom: 13px;
+        margin-top: 13px;
+    }
+
+    .couple-both-detail p {
+        font-size: 12px;
+    }
+
+    .couple-both-detail .btn-instagram-couple {
+        font-size: 12px;
+    }
+
+    .couple-both-detail .btn-instagram-couple i {
+        width: 5px !important;
+        margin-right: 10px;
+    }
+
+    .section-wedding-info-detail-icon img {
+        width: 80px;
+    }
 }
 
-@media only screen and (max-width: 383px) {
+@media only screen and (max-width: 388px) {
     .section-gift-title .section-gift-title-header img {
         width: 110px;
         margin-left: 120px;
@@ -1507,6 +1582,18 @@ header p {
     .section-gift-card .section-gift-card-image img {
         max-width: 290px;
         max-height: 141px;
+    }
+
+    .section-wedding-info-button .icon-location {
+        display: none;
+    }
+
+    .section-wedding-info-button .btn-live-streaming {
+        margin-top: 0px;
+    }
+
+    .section-wedding-info-button .icon-streaming {
+        display: none;
     }
 }
 

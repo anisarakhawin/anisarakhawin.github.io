@@ -132,12 +132,12 @@
           <p>Detik</p>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <!-- <div class="row justify-content-center">
         <button type="button" class="btn btn-light btn-outline-dark btn-save-the-date" data-aos="zoom-in" data-aos-easing="ease-out-back" data-aos-duration="1000" >
           <img src="icons/love.png" class="icon-save-date">
           Save The Date
         </button>
-      </div>
+      </div> -->
     </div>
   </section>
   <section class="section-middle-image" id="middle-image">
@@ -472,6 +472,8 @@
 
     i++;
   });
+
+  document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
 </script>
 </body>
 </html>
