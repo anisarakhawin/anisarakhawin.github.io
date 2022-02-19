@@ -1,0 +1,1518 @@
+@font-face {
+    font-family: bustleDemo;
+    src: url('../fonts/WeddingBustleDemoRegular.ttf');
+}
+
+@font-face {
+    font-family: mailvien;
+    src: url('../fonts/Mailvien-Regular.otf');
+}
+
+body {
+    background-color: #9E8E7E;
+    font-family: 'Muli', sans-serif;
+}
+
+.section-header {
+    background: url("../images/invitation-header.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 510px;
+    color: white;
+}
+
+.section-header .section-header-title h6 {
+    padding-top: 60px;
+    font-family: mailvien;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.section-header .section-header-title h4 {
+    padding-top: 20px;
+    font-family: bustleDemo;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.section-header .section-header-title .and-symbol {
+    padding-top: 10px;
+    font-family: mailvien;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.section-header .section-header-title h5 {
+    padding-top: 25px;
+    font-family: mailvien;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+header p {
+    font-size: 50px;
+}
+
+.section-invitation {
+  margin-top: 15px;
+}
+
+.section-invitation .section-invitation-title h6 {
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 10px;
+    color: white;
+    font-weight: normal;
+}
+
+.section-invitation .section-invitation-title h3 {
+    color: white;
+    font-family: mailvien;
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+.section-invitation .section-invitation-title p {
+    font-family: Roboto;
+    color: white;
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+.section-invitation .section-invitation-button {
+    margin-top: -10px;
+}
+
+.section-invitation .section-invitation-button .btn-invitation {
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #716657;
+}
+
+.section-invitation .icon-invitation {
+    width: 55px;
+    height: 55px;
+    margin: -10px -10px -10px -15px;
+}
+
+.section-gift-title .section-gift-title-header h3 {
+    margin-top: 40px;
+    font-size: 60px;
+    font-family: mailvien;
+    font-weight: normal;
+    color: white;
+}
+
+.section-gift-title .section-gift-title-header h6 {
+    margin-top: -5px;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    font-family: Roboto;
+}
+
+.section-gift-card .section-gift-card-image img {
+    max-width: 570px;
+    max-height: 301px;
+}
+
+.section-gift-card .section-gift-card-button {
+    margin-top: 30px;
+}
+
+.section-gift-card .section-gift-card-button .btn-copy-card-number {
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #716657;
+}
+
+.section-gift-ewallet .section-gift-ewallet-image {
+    margin-top: 90px;
+}
+
+.section-gift-ewallet .section-gift-ewallet-image img {
+    max-width: 250px;
+    max-height: 110px;
+}
+
+.section-gift-ewallet .section-gift-ewallet-image .dana-logo {
+    margin-top: -15px;
+}
+
+.section-gift-ewallet .section-gift-ewallet-image .ovo-logo {
+    margin-top: -30px;
+}
+
+.section-gift-ewallet .section-gift-ewallet-image .shopee-logo {
+    margin-top: -5px;
+}
+
+.section-gift-ewallet .section-gift-ewallet-button {
+    margin-top: 50px;
+}
+
+.section-gift-ewallet .section-gift-ewallet-button .btn-copy-phone-number {
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: #716657;
+}
+
+.section-gift-thanks {
+    min-height: 200px;
+}
+
+.section-gift-thanks .section-gift-thanks-message h5 {
+    margin-top: 60px;
+    font-size: 16px;
+    font-family: Roboto;
+    color: white;
+    font-weight: normal;
+}
+
+.section-gift-thanks .section-gift-thanks-message h3 {
+    margin-top: 25px;
+    font-size: 22px;
+    font-family: Roboto;
+    color: white;
+}
+
+.section-prayer-greetings {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+}
+
+.section-prayer-prayings {
+    margin-top: -15px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+}
+
+.section-couple-info {
+    margin-top: 50px;
+}
+
+.section-couple-info-title h3 {
+    font-family: mailvien;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+}
+
+.section-couple-info-detail {
+    margin-top: 50px;
+}
+
+.couple-both-detail {
+    font-family: Roboto;
+    margin-top: 22px;
+    color: white;
+}
+
+.couple-both-detail h3 {
+    font-size: 30px;
+    font-family: bustleDemo;
+}
+
+.couple-both-detail h6 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+.couple-both-detail p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.couple-both-detail .btn-instagram-couple {
+    border-radius: 10px;
+    font-weight: bold;
+    color: #716657;
+}
+
+.section-couple-info-detail-icon {
+    margin-top: 55px;
+    margin-left: -10px;
+}
+
+.section-engagement-video {
+    margin-top: 77px;
+}
+
+.section-wedding-prayer {
+    margin-top: 77px;
+    font-family: Roboto;
+    color: white;
+}
+
+.section-wedding-prayer h3 {
+    font-size: 40px;
+    font-family: mailvien;
+}
+
+.section-wedding-prayer .section-wedding-prayer-prayings {
+    margin-top: 23px;
+}
+
+.section-wedding-prayer .section-wedding-prayer-prayings p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.section-wedding-prayer .section-wedding-prayer-prayings h6 {
+    margin-top: -12px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-countdown {
+    margin-top: 72px;
+    font-family: Roboto;
+    color: white;
+}
+
+.section-countdown h3 {
+    font-size: 58px;
+}
+
+.section-countdown p {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.section-countdown button {
+    margin-top: 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #716657;
+    font-size: 18px;
+}
+
+.section-countdown .icon-save-date {
+    width: 50px;
+    height: 50px;
+    margin: -10px -5px -10px -15px;
+}
+
+.section-middle-image {
+    margin-top: 84px;
+    background: url("../images/middle-image.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 700px;
+    color: black;
+}
+
+.section-wedding-info {
+    margin-top: 90px;
+    font-family: Roboto;
+    color: white;
+}
+
+.section-wedding-info-detail-both h2 {
+    font-size: 42px;
+    font-family: bustleDemo;
+}
+
+.section-wedding-info-detail-both h6 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 20px;
+    line-height: 33px;
+}
+
+.section-wedding-info-detail-both p {
+    font-size: 18px;
+    margin-top: 22px;
+}
+
+.section-wedding-info-detail-icon {
+    margin-top: 70px;
+}
+
+.section-wedding-info-address {
+    margin-top: 25px;
+    font-family: Roboto;
+    color: white;
+}
+
+.section-wedding-info-address h4 {
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.section-wedding-info-button {
+    margin-top: 35px;
+}
+
+.section-wedding-info-button a {
+    border-radius: 10px;
+    font-weight: bold;
+    color: #716657;
+    font-size: 18px;
+}
+
+.section-wedding-info-button .icon-location {
+    width: 30px;
+    height: 30px;
+    margin: -10px 2px -7px -10px;
+}
+
+.section-wedding-info-button .icon-streaming {
+    width: 45px;
+    height: 45px;
+    margin: -10px -5px -7px -10px;
+}
+
+.section-covid-protocol {
+    margin-top: 70px;
+    font-family: Roboto;
+    color: black;
+}
+
+.section-covid-protocol-detail {
+    background-color: #C4C4C4;
+    border-radius: 25px;
+}
+
+.section-covid-protocol-detail .protocol-icon {
+    margin-top: 30px;
+}
+
+.section-covid-protocol-detail p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.section-covid-protocol-title {
+    margin-top: 40px;
+    font-family: mailvien;
+    color: white;
+}
+
+.section-covid-protocol-title h3 {
+    font-size: 40px;
+}
+
+.section-covid-protocol-title h6 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 20px;
+    font-family: Roboto;
+}
+
+.section-couple-gallery {
+    margin-top: 55px;
+    color: white;
+}
+
+.section-couple-gallery .gallery-icon {
+    width: 120px;
+    height: 75px;
+}
+
+.section-couple-gallery h3 {
+    margin-top: 20px;
+    margin-left: -10px;
+    font-size: 40px;
+    font-family: mailvien;
+}
+
+.section-couple-gallery h6 {
+    margin-top: 5px;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: bustleDemo;
+}
+
+.section-couple-gallery .and-symbol {
+    margin-top: 0px;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: mailvien;
+}
+
+.section-couple-gallery .gallery-photo-one {
+    margin-top: 65px;
+}
+
+.section-gallery-button-gift {
+    margin-top: 55px;
+}
+
+.section-gallery-button-gift a {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #716657;
+    border-radius: 10px;
+}
+
+.section-gallery-button-gift .icon-gift {
+    width: 50px;
+    height: 50px;
+    margin: -10px -5px -7px -10px;
+}
+
+.section-bottom-image {
+    margin-top: 55px;
+    background: url("../images/bottom-image.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 700px;
+    color: black;
+}
+
+.section-wedding-message-title {
+    margin-top: 70px;
+    color: white;
+}
+
+.section-wedding-message-title h3 {
+    font-size: 40px;
+    font-family: mailvien;
+}
+
+.section-wedding-message-title h6 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.section-wedding-message-detail {
+    background-color: #C4C4C4;
+    border-radius: 25px;
+    margin-top: 76px;
+}
+
+.section-wedding-message-detail .bird-message-icon {
+    margin-top: 20px;
+}
+
+.section-wedding-message-detail .input-name {
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: black;!important;
+}
+
+.section-wedding-message-detail .input-message {
+    margin-top: 15px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: black;!important;
+}
+
+.section-wedding-message-detail .btn-submit-message {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #716657;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    margin-right: 40px;
+}
+
+.section-wedding-message-detail .icon-submit {
+    width: 45px;
+    height: 45px;
+    margin: -10px -5px -7px -10px;
+}
+
+.section-wedding-message-detail .bird-message-one-icon {
+    margin-top: -40px;
+    width: 200px;
+    height: 180px;
+}
+
+.all-message {
+    margin-top: -20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    overflow-y: scroll;
+    height: 420px;
+}
+
+.section-wedding-message-detail .messageName {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.input-all-message {
+    margin-top: 0px !important;
+    margin-right: 50px;
+    font-size: 20px;
+    color: black;!important;
+}
+
+.section-footer {
+    margin-top: 79px;
+    color: white;
+}
+
+.section-footer-title h3 {
+    font-size: 42px;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-left: 15px;
+    font-family: bustleDemo;
+}
+
+.section-footer-title h3 .and-symbol {
+    font-size: 42px;
+    font-family: mailvien;
+}
+
+.section-footer-title p {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: -15px;
+    font-family: Roboto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .section-gift-title .section-gift-title-header img {
+        width: 200px;
+        margin-right: 60px;
+        margin-top: 15px;
+    }
+
+    .section-gift-title .section-gift-title-header h3 {
+        margin-left: 20px;
+    }
+
+    .section-gift-title .section-gift-title-header h6 {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .section-gift-title .section-gift-title-header img {
+        width: 200px;
+        margin-left: 240px;
+    }
+
+    .section-gift-title .section-gift-title-header h3 {
+        margin-top: -30px;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .section-gift-title .section-gift-title-header h6 {
+        margin-top: -5px;
+        margin-bottom: 40px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .section-couple-info-detail-icon {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .section-wedding-info-detail-icon {
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+
+    .section-wedding-info-button .btn-live-streaming {
+        margin-top: 20px;
+    }
+
+    .section-couple-gallery .gallery-icon {
+        margin-left: 160px;
+    }
+
+    .section-couple-gallery h6 {
+        margin-bottom: 60px;
+    }
+
+    .section-couple-gallery .gallery-photo-one {
+        margin-top: 0px;
+    }
+
+    .section-wedding-message-detail .bird-message-icon {
+        margin-top: 40px;
+        width: 140px;
+        height: 140px;
+    }
+
+    .section-wedding-message-detail .input-name {
+        margin-top: 40px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .section-wedding-message-detail .input-message {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .section-wedding-message-detail .btn-submit-message {
+        margin-bottom: 60px;
+    }
+
+    .section-wedding-message-detail .bird-message-one-icon {
+        margin-top: -25px;
+        width: 150px;
+        height: 130px;
+    }
+
+    .input-all-message {
+        margin-right: 50px;
+        margin-left: 50px;
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+    }
+
+    .section-covid-protocol-detail .protocol-icon {
+        width: 130px;
+    }
+
+    .section-covid-protocol-detail p {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .section-wedding-info-detail-both h2 {
+        font-size: 32px;
+    }
+
+    .section-wedding-info-detail-both h6 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .section-wedding-info-detail-both p {
+        font-size: 16px;
+    }
+
+    .section-wedding-info-detail-icon {
+        margin-top: 70px;
+    }
+
+    .section-wedding-info-detail-icon img {
+        width: 150px;
+    }
+
+    .section-wedding-info-address {
+        margin-top: 15px;
+    }
+
+    .section-wedding-info-address h4 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .section-wedding-info-button {
+        margin-top: 25px;
+    }
+
+    .section-wedding-info-button a {
+        font-size: 16px;
+    }
+
+    .section-wedding-info-button .icon-location {
+        width: 20px;
+        height: 20px;
+        margin: -10px 2px -7px -10px;
+    }
+
+    .section-wedding-info-button .btn-live-streaming {
+        margin-top: 0px;
+    }
+
+    .section-wedding-info-button .icon-streaming {
+        width: 35px;
+        height: 35px;
+        margin: -10px -5px -7px -10px;
+    }
+
+    .section-couple-info-detail {
+        margin-top: 50px;
+    }
+
+    .section-couple-info-detail img {
+        height: 200px;
+    }
+
+    .section-couple-info-detail .icon-married {
+        height: 140px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    .couple-both-detail {
+        margin-top: 22px;
+        color: white;
+    }
+
+    .couple-both-detail h3 {
+        font-size: 28px;
+    }
+
+    .couple-both-detail h6 {
+        font-size: 18px;
+        margin-bottom: 13px;
+        margin-top: 13px;
+    }
+
+    .couple-both-detail p {
+        font-size: 14px;
+    }
+
+    .couple-both-detail .btn-instagram-couple {
+        font-size: 14px;
+    }
+
+    .couple-both-detail .btn-instagram-couple i {
+        width: 15px !important;
+        margin-right: 5px;
+    }
+
+    .all-message {
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section-gift-card .section-gift-card-image img {
+        max-width: 450px;
+        max-height: 221px;
+    }
+
+    .section-gift-title .section-gift-title-header img {
+        width: 160px;
+        margin-left: 170px;
+    }
+
+    .section-gift-title .section-gift-title-header h3 {
+        margin-top: -30px;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .section-gift-title .section-gift-title-header h6 {
+        margin-top: -5px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .section-covid-protocol-title h3 {
+        font-size: 32px;
+    }
+
+    .section-covid-protocol-title h6 {
+        font-size: 18px;
+    }
+
+    .section-couple-gallery .gallery-icon {
+        margin-left: 90px;
+    }
+
+    .section-footer-title h3 {
+        font-size: 40px;
+    }
+
+    .section-footer-title p {
+        font-size: 16px;
+    }
+
+    .section-wedding-info-detail-both h2 {
+        font-size: 28px;
+    }
+
+    .section-wedding-info-detail-both h6 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .section-wedding-info-detail-both p {
+        font-size: 14px;
+    }
+
+    .section-wedding-info-detail-icon {
+        margin-top: 70px;
+    }
+
+    .section-wedding-info-detail-icon img {
+        width: 120px;
+    }
+
+    .section-wedding-info-address {
+        margin-top: 10px;
+    }
+
+    .section-wedding-info-address h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .section-wedding-info-button {
+        margin-top: 25px;
+    }
+
+    .section-wedding-info-button a {
+        font-size: 14px;
+    }
+
+    .section-wedding-info-button .icon-location {
+        width: 18px;
+        height: 18px;
+        margin: -10px 2px -7px -10px;
+    }
+
+    .section-wedding-info-button .btn-live-streaming {
+        margin-top: 0px;
+    }
+
+    .section-wedding-info-button .icon-streaming {
+        width: 30px;
+        height: 30px;
+        margin: -10px -5px -7px -10px;
+    }
+
+    .section-wedding-message-detail .bird-message-icon {
+        margin-top: 20px;
+        margin-left: -15px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .section-wedding-message-detail .input-name {
+        margin-top: 40px;
+        margin-right: 25px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .section-wedding-message-detail .input-message {
+        margin-right: 25px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .section-wedding-message-detail .btn-submit-message {
+        margin-bottom: 60px;
+        font-size: 16px !important;
+    }
+
+    .section-wedding-message-detail .btn-submit-message .icon-submit {
+        width: 40px;
+        height: 40px;
+    }
+
+    .section-wedding-message-detail .bird-message-one-icon {
+        margin-top: -20px;
+        margin-left: -25px;
+        width: 130px;
+        height: 110px;
+    }
+
+    .input-all-message {
+        margin-right: 25px;
+        margin-left: 20px;
+        margin-top: -0px !important;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .section-couple-info-detail {
+        margin-top: 50px;
+    }
+
+    .section-couple-info-detail img {
+        height: 180px;
+    }
+
+    .section-couple-info-detail .icon-married {
+        height: 110px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    .couple-both-detail {
+        margin-top: 22px;
+        color: white;
+    }
+
+    .couple-both-detail h3 {
+        font-size: 28px;
+    }
+
+    .couple-both-detail h6 {
+        font-size: 18px;
+        margin-bottom: 13px;
+        margin-top: 13px;
+    }
+
+    .couple-both-detail p {
+        font-size: 14px;
+    }
+
+    .couple-both-detail .btn-instagram-couple {
+        font-size: 14px;
+    }
+
+    .couple-both-detail .btn-instagram-couple i {
+        width: 15px !important;
+        margin-right: 5px;
+    }
+
+    .all-message {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .section-gift-title .section-gift-title-header img {
+        width: 120px;
+        margin-left: 200px;
+        display: flex;
+    }
+
+    .section-gift-title .section-gift-title-header h3 {
+        margin-top: -20px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .section-gift-title .section-gift-title-header h6 {
+        margin-top: -5px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .section-gift-card .section-gift-card-image img {
+        max-width: 370px;
+        max-height: 191px;
+    }
+
+    .section-prayer-greetings {
+        font-size: 14px;
+    }
+
+    .section-prayer-prayings {
+        font-size: 14px;
+    }
+
+    .section-couple-info-title h3 {
+        font-size: 24px;
+    }
+
+    .section-wedding-prayer h3 {
+        font-size: 26px;
+    }
+
+    .section-wedding-prayer .section-wedding-prayer-prayings p {
+        font-size: 14px;
+    }
+
+    .section-wedding-prayer .section-wedding-prayer-prayings h6 {
+        font-size: 14px;
+    }
+
+    .section-countdown h3 {
+        font-size: 36px;
+    }
+
+    .section-countdown p {
+        font-size: 16px;
+    }
+
+    .section-wedding-info-detail-both h2 {
+        font-size: 36px;
+    }
+
+    .section-wedding-info-detail-both h6 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .section-wedding-info-detail-both p {
+        font-size: 16px;
+    }
+
+    .section-wedding-info-address h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .section-wedding-info-button a {
+        font-size: 18px;
+    }
+
+    .section-wedding-info-button .icon-streaming {
+        width: 40px;
+        height: 40px;
+        margin: -10px -5px -7px -10px;
+    }
+
+    .section-covid-protocol-detail .protocol-icon {
+        width: 90px;
+    }
+
+    .section-covid-protocol-detail p {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .section-covid-protocol-title h3 {
+        font-size: 26px;
+    }
+
+    .section-covid-protocol-title h6 {
+        font-size: 14px;
+    }
+
+    .section-couple-gallery .gallery-icon {
+        width: 110px;
+        height: 65px;
+    }
+
+    .section-couple-gallery h3 {
+        font-size: 32px;
+    }
+
+    .section-couple-gallery h6 {
+        font-size: 24px;
+    }
+
+    .section-gallery-button-gift a {
+        font-size: 20px;
+    }
+
+    .section-gallery-button-gift .icon-gift {
+        width: 40px;
+        height: 40px;
+        margin: -10px -5px -7px -10px;
+    }
+
+    .section-wedding-message-title h3 {
+        font-size: 26px;
+    }
+
+    .section-wedding-message-title h6 {
+        font-size: 14px;
+    }
+
+    .section-footer .footer-icon {
+        width: 90px;
+    }
+
+    .section-footer .footer-icon {
+        width: 60px;
+        height: 75px;
+    }
+
+    .section-footer-title h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .section-footer-title p {
+        font-size: 12px;
+        margin-top: -5px;
+    }
+
+    .section-wedding-message-detail .bird-message-icon {
+        width: 130px;
+    }
+
+    .section-wedding-message-detail .input-name {
+        font-size: 16px;
+    }
+
+    .section-wedding-message-detail .input-message {
+        font-size: 16px;
+    }
+
+    .section-wedding-message-detail .btn-submit-message {
+        font-size: 16px;
+    }
+
+    .section-wedding-message-detail .bird-message-one-icon {
+        margin-left: 190px;
+    }
+
+    .input-all-message {
+        font-size: 16px;
+    }
+
+    .section-wedding-info-detail-both h2 {
+        font-size: 24px;
+    }
+
+    .section-wedding-info-detail-both h6 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section-wedding-info-detail-both p {
+        font-size: 13px;
+    }
+
+    .section-wedding-info-detail-icon {
+        margin-top: 70px;
+    }
+
+    .section-wedding-info-detail-icon img {
+        width: 100px;
+    }
+
+    .section-wedding-info-address {
+        margin-top: 10px;
+    }
+
+    .section-wedding-info-address h4 {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .section-wedding-info-button {
+        margin-top: 20px;
+    }
+
+    .section-wedding-info-button a {
+        font-size: 13px;
+    }
+
+    .section-wedding-info-button .icon-location {
+        width: 16px;
+        height: 16px;
+        margin: -10px 2px -7px -10px;
+    }
+
+    .section-wedding-info-button .btn-live-streaming {
+        margin-top: 0px;
+    }
+
+    .section-wedding-info-button .icon-streaming {
+        width: 27px;
+        height: 27px;
+        margin: -10px -5px -7px -10px;
+    }
+
+    .section-wedding-message-detail .bird-message-icon {
+        margin-top: 20px;
+        margin-left: -10px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .section-wedding-message-detail .input-name {
+        margin-top: 40px;
+        margin-right: 25px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .section-wedding-message-detail .input-message {
+        margin-right: 25px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .section-wedding-message-detail .btn-submit-message {
+        margin-bottom: 50px;
+        font-size: 14px !important;
+    }
+
+    .section-wedding-message-detail .btn-submit-message .icon-submit {
+        width: 30px;
+        height: 30px;
+    }
+
+    .section-wedding-message-detail .bird-message-one-icon {
+        margin-top: -20px;
+        margin-left: -25px;
+        width: 130px;
+        height: 110px;
+    }
+
+    .input-all-message {
+        margin-right: 25px;
+        margin-left: 20px;
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .section-couple-info-detail {
+        margin-top: 50px;
+    }
+
+    .section-couple-info-detail img {
+        height: 160px;
+    }
+
+    .section-couple-info-detail .icon-married {
+        height: 100px;
+        margin-top: 10px;
+        margin-left: -10px;
+    }
+
+    .couple-both-detail {
+        margin-top: 22px;
+        color: white;
+    }
+
+    .couple-both-detail h3 {
+        font-size: 22px;
+    }
+
+    .couple-both-detail h6 {
+        font-size: 16px;
+        margin-bottom: 13px;
+        margin-top: 13px;
+    }
+
+    .couple-both-detail p {
+        font-size: 12px;
+    }
+
+    .couple-both-detail .btn-instagram-couple {
+        font-size: 12px;
+    }
+
+    .couple-both-detail .btn-instagram-couple i {
+        width: 5px !important;
+        margin-right: 10px;
+    }
+
+    .section-countdown button {
+        font-size: 14px;
+    }
+
+    .section-countdown .icon-save-date {
+        width: 40px;
+        height: 40px;
+        margin: -10px -5px -10px -15px;
+    }
+
+    .section-gallery-button-gift a {
+        font-size: 14px;
+    }
+
+    .section-gallery-button-gift .icon-gift {
+        width: 40px;
+        height: 40px;
+        margin: -10px -5px -7px -10px;
+    }
+
+    .all-message {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .section-gift-title .section-gift-title-header img {
+        width: 120px;
+        margin-left: 185px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .section-gift-title .section-gift-title-header img {
+        width: 120px;
+        margin-left: 170px;
+    }
+
+    .section-wedding-message-detail .bird-message-icon {
+        margin-top: 20px;
+        margin-left: -10px;
+        width: 85px;
+        height: 85px;
+    }
+
+    .section-wedding-message-detail .input-name {
+        margin-top: 40px;
+        margin-right: 25px;
+        margin-left: 15px;
+        font-size: 13px;
+    }
+
+    .section-wedding-message-detail .input-message {
+        margin-right: 25px;
+        margin-left: 15px;
+        font-size: 13px;
+    }
+
+    .section-wedding-message-detail .btn-submit-message {
+        margin-bottom: 50px;
+    }
+
+    .section-wedding-message-detail .bird-message-one-icon {
+        margin-top: -20px;
+        margin-left: -15px;
+        width: 110px;
+        height: 90px;
+    }
+
+    .input-all-message {
+        margin-right: 25px;
+        margin-left: 15px;
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+
+    .all-message {
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .section-gift-title .section-gift-title-header img {
+        width: 120px;
+        margin-left: 155px;
+    }
+
+    .section-wedding-info-address {
+        margin-top: 10px;
+    }
+
+    .section-wedding-info-address h4 {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .section-wedding-info-button {
+        margin-top: 20px;
+    }
+
+    .section-wedding-info-button a {
+        font-size: 12px;
+    }
+
+    .section-wedding-info-button .icon-location {
+        width: 16px;
+        height: 16px;
+        margin: -10px 2px -7px -10px;
+    }
+
+    .section-wedding-info-button .btn-live-streaming {
+        margin-top: 0px;
+    }
+
+    .section-wedding-info-button .icon-streaming {
+        width: 23px;
+        height: 23px;
+        margin: -10px -5px -7px -10px;
+    }
+
+    .section-wedding-message-detail .bird-message-icon {
+        margin-top: 20px;
+        margin-left: -10px;
+        width: 85px;
+        height: 85px;
+    }
+
+    .section-wedding-message-detail .input-name {
+        margin-top: 40px;
+        margin-right: 25px;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+
+    .section-wedding-message-detail .input-message {
+        margin-right: 25px;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+
+    .section-wedding-message-detail .btn-submit-message {
+        margin-bottom: 50px;
+    }
+
+    .section-wedding-message-detail .bird-message-one-icon {
+        margin-top: -20px;
+        margin-left: -15px;
+        width: 110px;
+        height: 90px;
+    }
+
+    .input-all-message {
+        margin-right: 25px;
+        margin-left: 15px;
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 438px) {
+    .section-gift-title .section-gift-title-header img {
+        width: 110px;
+        margin-left: 140px;
+    }
+
+    .section-gift-card .section-gift-card-image img {
+        max-width: 300px;
+        max-height: 151px;
+    }
+
+    .section-couple-gallery .gallery-icon {
+        margin-left: 40px;
+    }
+
+    .section-wedding-info-button a {
+        font-size: 10px;
+    }
+
+    .section-wedding-info-button .icon-location {
+        width: 14px;
+        height: 14px;
+        margin: -10px 2px -7px -10px;
+    }
+
+    .section-wedding-info-button .btn-live-streaming {
+        margin-top: 0px;
+    }
+
+    .section-wedding-info-button .icon-streaming {
+        width: 20px;
+        height: 20px;
+        margin: -10px -5px -7px -10px;
+    }
+}
+
+@media only screen and (max-width: 383px) {
+    .section-gift-title .section-gift-title-header img {
+        width: 110px;
+        margin-left: 120px;
+    }
+
+    .section-gift-card .section-gift-card-image img {
+        max-width: 290px;
+        max-height: 141px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .section-gift-title .section-gift-title-header img {
+        width: 110px;
+        margin-left: 105px;
+    }
+}
