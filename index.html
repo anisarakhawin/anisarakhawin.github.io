@@ -420,13 +420,17 @@
   }
 
   function onPlayerStateChange(event) {
-    console.log(YT.PlayerState);
+    // console.log(YT.PlayerState);
 
     if (event.data === YT.PlayerState.PLAYING) {
       audio.pause();
     }
 
     if (event.data === YT.PlayerState.ENDED) {
+      audio.play();
+    }
+
+    if (event.data === YT.PlayerState.PAUSED) {
       audio.play();
     }
   }
@@ -553,7 +557,7 @@
   // End Store Message to LocalStorage
 
   // Make Window Can't Right Click
-  // document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
+  document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
 </script>
 </body>
 </html>
