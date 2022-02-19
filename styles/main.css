@@ -1325,6 +1325,28 @@ header p {
     .all-message {
         height: 300px;
     }
+
+    .section-invitation .section-invitation-button .btn-invitation {
+        font-size: 12px;
+    }
+
+    .section-invitation .icon-invitation {
+        width: 35px;
+        height: 35px;
+        margin: -5px -5px -5px -15px;
+    }
+
+    .section-invitation .section-invitation-title h6 {
+        font-size: 18px;;
+    }
+
+    .section-invitation .section-invitation-title h3 {
+        font-size: 32px;
+    }
+
+    .section-invitation .section-invitation-title p {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 535px) {
@@ -1335,22 +1357,22 @@ header p {
 
     .section-header .section-header-title h6 {
         font-size: 20px;
-        line-height: 18px;
+        line-height: 10px;
     }
 
     .section-header .section-header-title h4 {
         font-size: 30px;
-        line-height: 18px;
+        line-height: 8px;
     }
 
     .section-header .section-header-title .and-symbol {
         font-size: 30px;
-        line-height: 18px;
+        line-height: 8px;
     }
 
     .section-header .section-header-title h5 {
         font-size: 20px;
-        line-height: 18px;
+        line-height: 8px;
     }
 
     .section-gift-thanks .section-gift-thanks-message h5 {
@@ -1588,12 +1610,12 @@ header p {
         display: none;
     }
 
-    .section-wedding-info-button .btn-live-streaming {
-        margin-top: 0px;
-    }
-
     .section-wedding-info-button .icon-streaming {
         display: none;
+    }
+
+    .section-wedding-info-button a {
+        font-size: 9px;
     }
 }
 
