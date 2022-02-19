@@ -377,7 +377,7 @@
   // Get Invitation Name
   var invitationParam = new URLSearchParams(location.search);
 
-  var name = invitationParam.get('for');
+  var name = invitationParam.get('to');
   name = name.replace(/-/g, ' ');
 
   name = name.toLowerCase().replace(/\b[a-z]/g, function(letter) {
