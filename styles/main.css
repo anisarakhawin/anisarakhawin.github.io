@@ -1593,6 +1593,46 @@ header p {
     .section-wedding-info-detail-icon img {
         width: 80px;
     }
+
+    .section-wedding-message-detail .bird-message-icon {
+        margin-top: 40px;
+        margin-left: -10px;
+        width: 75px;
+        height: 75px;
+    }
+
+    .section-wedding-message-detail .input-name {
+        margin-top: 40px;
+        margin-right: 25px;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+
+    .section-wedding-message-detail .input-message {
+        margin-right: 25px;
+        margin-left: 15px;
+        font-size: 12px;
+    }
+
+    .section-wedding-message-detail .btn-submit-message {
+        margin-bottom: 50px;
+        font-size: 12px;
+    }
+
+    .section-wedding-message-detail .bird-message-one-icon {
+        margin-top: -10px;
+        margin-left: -20px;
+        width: 100px;
+        height: 80px;
+    }
+
+    .input-all-message {
+        margin-right: 25px;
+        margin-left: 15px;
+        margin-top: 0px !important;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
 }
 
 @media only screen and (max-width: 388px) {
